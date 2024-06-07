@@ -1,0 +1,17 @@
+type: edu
+custom_name: Max of two integers
+files:
+  - name: src/Main.java
+    visible: true
+    learner_created: false
+  - name: src/Operator.java
+    visible: true
+    learner_created: false
+  - name: test/MainTest.java
+    visible: false
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Tue, 28 May 2024 08:16:46 UTC"
+record: -1

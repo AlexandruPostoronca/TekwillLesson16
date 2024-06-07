@@ -1,0 +1,27 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: a
+    is_correct: false
+  - text: b
+    is_correct: true
+  - text: c
+    is_correct: true
+  - text: d
+    is_correct: true
+quiz_header: 'Select all the correct answers:'
+files:
+  - name: src/Main.java
+    visible: true
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Wed, 29 May 2024 10:08:06 UTC"
+record: -1
+selected_options:
+  - 1
+  - 2
+  - 3
+custom_name: A string operator
+local_check: true

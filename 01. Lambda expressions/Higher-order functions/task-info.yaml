@@ -1,0 +1,27 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: "Function&ltT, R&gt method(Function&ltT, R&gt f,  int n)"
+    is_correct: true
+  - text: "void method(Function&ltT, R&gt f)"
+    is_correct: true
+  - text: "Function&ltT, R&gt method(int n)"
+    is_correct: true
+  - text: int method(int n)
+    is_correct: false
+quiz_header: 'Select all the correct answers:'
+files:
+  - name: src/Main.java
+    visible: true
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Tue, 28 May 2024 08:13:46 UTC"
+record: -1
+selected_options:
+  - 0
+  - 1
+  - 2
+custom_name: Higher-order functions
+local_check: true

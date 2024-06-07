@@ -1,0 +1,34 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: It takes two arguments (Long and String) and returns a value of the reference
+      Double type.
+    is_correct: false
+  - text: It takes two arguments (String and Double) and returns a value of the reference
+      Long type.
+    is_correct: false
+  - text: It takes two arguments (Long and String) and returns a value of the primitive
+      double type.
+    is_correct: false
+  - text: It takes two arguments (String and primitive double) and returns a value of
+      the reference Long type.
+    is_correct: false
+  - text: It takes two arguments (String and Double) and returns a value of the primitive
+      long type.
+    is_correct: true
+  - text: It takes two arguments (String and primitive double) and returns a value of
+      the primitive long type.
+    is_correct: false
+files:
+  - name: src/Main.java
+    visible: true
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Wed, 29 May 2024 11:07:48 UTC"
+record: -1
+selected_options:
+  - 4
+custom_name: Describe the function
+local_check: true

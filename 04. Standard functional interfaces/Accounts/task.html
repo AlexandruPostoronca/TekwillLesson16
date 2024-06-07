@@ -1,0 +1,20 @@
+<h2>Accounts</h2>
+<p>Given a class <code>Account(number: String, balance: Long, locked: boolean)</code>, the list <code>accounts</code><strong> </strong>of type <code>List&lt;Account&gt;</code> and the method <code>filter(List&lt;T&gt; elems, Predicate&lt;T&gt; predicate)</code> for filtering the given list of type <code>T</code> by the predicate.</p>
+
+<p>The class <code>Account</code> has the following get methods: <code>getNumber()</code>, <code>getBalance()</code>, <code>isLocked()</code> for retrieving the values of the corresponding fields.</p>
+
+<p>Write code for filtering the <code>accounts</code> list using the <code>filter</code> method in two ways:</p>
+
+<ol>
+	<li>get <strong>all non-empty</strong> accounts (<code>balance</code> &gt; 0) and save it to the variable <code>nonEmptyAccounts</code></li>
+	<li>get<strong> all non-locked</strong> accounts<strong> with too much money</strong> (<code>balance</code> &gt;= 100 000 000) and save it to the variable <code>accountsWithTooMuchMoney</code></li>
+</ol>
+
+<p><strong><strong>Important. </strong></strong>Use the given code template for your solution. Do not change it!</p>
+
+<p><strong>Example </strong>of using the <code>filter</code> method<strong>.</strong> The code below gets only even numbers from the list.</p>
+
+<pre><code>List&lt;Integer&gt; numbers = ...
+List&lt;Integer&gt; evenNumbers = filter(numbers, number -&gt; number % 2 == 0);</code></pre>
+
+<p><strong>PS: </strong>it's often called <strong>behavior parametrization</strong> because the behavior of the method <code>filter</code><strong> </strong>is dependent on the given predicate.</p>

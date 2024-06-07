@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MainTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2024-05-29T15:46:49" hostname="DESKTOP-A97GDF4" time="0.018">
+  <properties/>
+  <testcase name="testSortDuplicateElementsDescending" classname="MainTest" time="0.013"/>
+  <testcase name="testSortDescending" classname="MainTest" time="0.0"/>
+  <testcase name="testSortSingleElementListDescending" classname="MainTest" time="0.001"/>
+  <testcase name="testSortDuplicateElementsAscending" classname="MainTest" time="0.001"/>
+  <testcase name="testSortSingleElementListAscending" classname="MainTest" time="0.0"/>
+  <testcase name="testSortAlreadySortedAscending" classname="MainTest" time="0.0"/>
+  <testcase name="testSortAscending" classname="MainTest" time="0.0"/>
+  <testcase name="testSortAlreadySortedDescending" classname="MainTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,26 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: It extends the Function interface
+    is_correct: false
+  - text: It contains only a single abstract method
+    is_correct: true
+  - text: It has one default method
+    is_correct: false
+  - text: It has the @FunctionalInterface annotation
+    is_correct: false
+  - text: It isn't implemented by a class
+    is_correct: false
+files:
+  - name: src/Main.java
+    visible: true
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Wed, 29 May 2024 09:51:32 UTC"
+record: -1
+selected_options:
+  - 1
+custom_name: The requirement
+local_check: true
